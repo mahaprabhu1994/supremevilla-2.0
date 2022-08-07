@@ -1,0 +1,54 @@
+.Property__container{
+    width: 250px;
+    height: 325px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: rgba(124, 124, 124, 0.326) 0px 2px 8px;
+    cursor: pointer;
+    transition: .5s;
+}
+.property__container:hover{
+    transform: scale(1.05);
+    background-color: rgb(255, 255, 255);
+}
+.Property__image{
+    width: 100%;
+    height: 188px;
+    position: relative;
+}
+.price {
+    width: 90px;
+    height:30px;
+    background-color: orange;
+    position: absolute;
+    bottom: 0px;
+    right: 0%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.property__img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.Property__Title{
+    height: 35px;
+    padding-left: 10px;
+    font-size: 17px;
+    margin-top:10px;
+}
+
+.property__discription{
+    padding-left: 10px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.property__discription span {
+    font-weight:  600;
+    font-size: 15px;
+}
